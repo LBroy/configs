@@ -1,0 +1,91 @@
+{
+  /**
+  // Vim Settings for VSCode
+  // "vim.insertModeKeyBindings": [
+  //   {
+  //     "before": ["j", "k"],
+  //     "after": ["<esc>"]
+  //   }
+  // ],
+  // "vim.neovimPath": "/usr/local/bin/nvim",
+  // "vim.surround": true,
+  // "vim-commentary": true,
+  // "vim.statusBarColorControl": false,
+  // "vim.statusBarColors.normal": "#8FBCBB",
+  // "vim.statusBarColors.insert": "#BF616A",
+  // "vim.statusBarColors.visual": "#B48EAD",
+  // "vim.statusBarColors.visualline": "#B48EAD",
+  // "vim.statusBarColors.visualblock": "#A3BE8C",
+  // "vim.statusBarColors.replace": "#D08770",
+  */
+
+  // Editor Settings
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "editor.folding": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.lineHeight": 26,
+  "editor.matchBrackets": true,
+  "editor.occurrencesHighlight": true,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "editor.renderIndentGuides": false,
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  // "explorer.openEditors.visible": 0,
+  "explorer.confirmDragAndDrop": false,
+  "window.zoomLevel": 0,
+
+  // Workbench Settings for VSCode
+  // "workbench.activityBar.visible": false,
+  "workbench.colorTheme": "Subliminal",
+  "workbench.editor.showIcons": false,
+  "workbench.statusBar.visible": false,
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.editor.labelFormat": "short",
+  "workbench.editor.showTabs": true,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#8FBCBB",
+    "statusBar.noFolderBackground": "#8FBCBB",
+    "statusBar.debuggingBackground": "#8FBCBB"
+  },
+  // Ignore the following files in file explorer
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": true
+  },
+
+  // Language specific
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[graphql]": {
+    "editor.tabSize": 2
+  },
+
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+  "breadcrumbs.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // Prettier Config
+  "prettier.trailingComma": "es5",
+  "prettier.proseWrap": "always",
+  "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
+}
+
